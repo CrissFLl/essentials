@@ -23,7 +23,7 @@ de entrada' de ejecución de cualquier aplicacion de C++*/
 dentro de los '()' */
 int main(){
 
-    //console out << "mensaje" (siempre entre parentesis) << end line (salto de linea)
+    //caracter out << "mensaje" (siempre entre parentesis) << end line (salto de linea)
     cout << "Hello world" << endl;  //'cout' incluye un mensaje en consola
                                     //endl crea un salto de linea, puede o no incluirse. 
 
