@@ -1,4 +1,6 @@
-/*Biblioteca iostream que permite utilizar la funcion cout, endl (y muchas otras)*/
+/*Biblioteca iostream que permite utilizar la funcion cout, endl (y muchas otras).
+Para incluir una biblioteca utilizamos la forma #include <biblioteca>
+NOTA: reemplazar 'biblioteca' por una biblioteca existente.*/
 #include <iostream> 
 
 /*Lo siguiente es una declaracion, estas terminan en ';'
@@ -30,7 +32,7 @@ int main(){
         std::cout << "Hello world" << std::endl; <-- Aqui declaramos el espacio de nombres std al inicio
                                                     de las funciones 'cout' y 'endl'
 
-        NOTA: debemos comentar o quitar la linea 9 (using namespace std;) para poder utilizar la forma
+        NOTA: debemos comentar o quitar la linea 11 (using namespace std;) para poder utilizar la forma
         anterior.
     */
 
