@@ -1,10 +1,18 @@
 #include <iostream>
 using namespace std;
 
+
+/*En este programa definiremos 'variables', 'constantes' y
+'Tipos de datos'*/
+
+/*Variables varían, constantes NO
+Tipos de datos como su nombre lo indica, es el tipo de
+dato que pueden almacenar las variables y/o constantes*/
+
 int main(){
     
-    /* a continuacion declararemos distintas 'variables' 
-    con distintos tipos de datos*/
+    /*A continuacion declararemos distintas 'variables' 
+    y 'constantes' con distintos tipos de datos*/
     
     /*REGLAS SOBRE DECLARACION DE VARIABLES:
     -SOLO empiezan por letras o guion bajo.
@@ -14,14 +22,13 @@ int main(){
     -ES case sersitive (ej: casa, Casa, CAsa, son diferentes)
     */
 
-    int numero;     //Tipo de dato 'int' (entero)
-    string nombre;  //Tipo de dato 'string' (cadena)
-    double salario; //Tipo de dato 'double' (decimales mas largos)
-    int edad;  //Lista de 'int'
+    const string nombre = "Juan";     //Constante de tipo de dato 'string' (cadena)
+    int numero;             //Variable de tipo de dato 'int' (entero)
+    double salario;         //Variable de tipo de dato 'double' (decimales mas largos)
 
-    numero = 3500; //le damos valor a la variable numero
-    nombre="Juan";
-
+    int edad; 
+    numero = 3500;          //Le damos valor a la variable numero
+    
     cout << "Introduce el salario del empleado: ";
     cin >> salario; /*'cin' pide un tipo de dato para agregar al 
                     codigo mediante consola*/
