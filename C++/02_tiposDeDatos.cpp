@@ -1,6 +1,6 @@
 #include <iostream>
-using namespace std;
 
+using namespace std;
 
 /*En este programa definiremos 'variables', 'constantes' y
 'Tipos de datos'*/
@@ -36,9 +36,10 @@ int main(){
     cout << "Introduce la edad del empleado: ";
     cin >> edad;
 
+    cout << "=====================" << endl;
     cout << "Datos del empleado: " << endl;
 
-    cout << "Nombre: " << nombre << ". Edad: " << edad << ". Salario: " << salario;
+    cout << "Nombre: " << nombre << ". Edad: " << edad << ". Salario: " << salario << endl;
 
 
     return 0;

@@ -23,20 +23,25 @@ int main(){
     double totalSinImpuestos;
     double totalConImpuestos;
 
-    cout << "Cuántos metros deseas instalar con calidad media?" << endl;
+    cout << "Cuántos metros deseas instalar con calidad media? ";
     cin >> mCalidadMedia;
 
-    cout << "Cuántos metros deseas instalar con calidad alta?" << endl;
+    cout << "Cuántos metros deseas instalar con calidad alta? ";
     cin >> mCalidadAlta;
 
     totalSinImpuestos = (mCalidadMedia*precioMetroCalidadMedia)+(mCalidadAlta*precioMetroCalidadAlta);
 
     totalConImpuestos = (totalSinImpuestos*iva)+totalSinImpuestos;
 
+    cout << "==============================" << endl;
+    cout << "Precio del metro de piso con calidad media: " << precioMetroCalidadMedia << endl;
+    cout << "Precio del metro de piso con calidad alta: " << precioMetroCalidadAlta << endl;
+
+    cout << "Precio del total de piso sin impuestos: " << totalSinImpuestos << endl;
+    cout << "IVA (0.21): " << totalSinImpuestos*iva << endl;
+
     cout <<"El total del presupuesto es de: "<< totalConImpuestos << ". Y tiene una validez de 30 días " << endl;
+    cout << "==============================" << endl;
 
-
-
-
-
+    return 0;
 }
